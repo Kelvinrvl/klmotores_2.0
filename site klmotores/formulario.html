@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario Klmotores</title>
+    <link rel="icon" type="image/x-incon" href="favicon.ico">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color:#f0f0f0;
+        }
+        header {
+            background-color: #2e0ee4;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        main {
+            margin: 20px;
+            padding: 20px;
+            background-color: rgb(240, 240, 240);
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #2e0ee4;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>KL motores</h1>
+    </header>
+    <ul >
+        <li ><a href="index.html">Página Inicial</a></li>
+        <li ><a href="Galeria.html">Galeria</a></li>
+        <li ><a href="formulario.html">Formulário</a></li>
+    </ul>
+    <main>
+        <form>
+
+            <fieldset>
+    
+                <legend>Formulário de informações</legend>
+    
+                <label for="idnome">Digite seu nome: </label>
+                <input type="text" id="idnome" />
+    
+                <br /><br />
+    
+                <label for="idnasc">Digite sua data de nascimento: </label>
+                <input type="date" id="idnasc" />
+    
+                <br /><br />
+    
+                <label for="idnum"> Ano do carro: </label>
+                <input type="number" id="idnum" />
+    
+                <br /><br />
+    
+                <label for="idemail">Digite seu e-mail: </label>
+                <input type="email" id="idemail" placeholder="Digite seu e-mail" />
+    
+                <br /><br />
+    
+                <label for="idnota">Nos diga o quanto você entendi de carros: 1 a 5 </label>
+    
+                <br /> <br />
+    
+                <input type="range" id="idnota" min="1" max="5" />
+    
+                <br />
+    
+                <p> Marque sua classe favorita para receber mais informações sobre ela:</p>
+    
+                <input type="radio" name="classe" id="idgol" />
+                <label for="idgol"> gol</label>
+    
+                <input type="radio" name="classe" id="idsupra" />
+                <label for="idsupra"> supra</label>
+    
+                <input type="radio" name="classe" id="idcivic" />
+                <label for="idcivic"> civic</label>
+    
+                <input type="radio" name="classe" id="idancer" />
+                <label for="idancer"> lancer</label>
+    
+                <input type="radio" name="classe" id="idsubaru" />
+                <label for="idsubaru"> subaru</label>
+    
+                <br /><br />
+    
+                <input type="submit" value="Enviar" />
+    
+                <input type="reset" value="Apagar" />
+    
+    
+            </fieldset>
+    
+        </form>
+
+    </main>
+    <footer>
+
+    </footer>
+    
+</body>
+</html>
